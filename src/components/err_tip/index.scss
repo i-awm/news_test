@@ -1,0 +1,24 @@
+.err-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    margin-left: -4rem;
+    margin-right: -4rem;
+    height: 8rem;
+    width: 11rem;
+
+    img{
+        width: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        font-size: 1.6rem;
+        color: #999;
+    }
+}

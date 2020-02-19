@@ -1,0 +1,25 @@
+.no-content-tip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 24rem;
+    
+    margin: -2.2rem 0 0 -12rem;
+    
+    p{
+        font-size: 1.6rem;
+        color: #999;
+    }
+    img{
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+        background-color:#999;
+    }
+}
+
+//文本样式
